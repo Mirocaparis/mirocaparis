@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="SHOP">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>SHOP</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'mirocaparis.myshopify.com',
+      storefrontAccessToken: '54a1688b8c784889f7740f5272e93c02',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '370170560759',
+        node: document.getElementById('collection-component-1643972656717'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "font-size": "17px"
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#4ea491"
+        },
+        "background-color": "#57b6a1",
+        ":focus": {
+          "background-color": "#4ea491"
+        }
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#4ea491"
+        },
+        "background-color": "#57b6a1",
+        ":focus": {
+          "background-color": "#4ea491"
+        }
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#4ea491"
+        },
+        "background-color": "#57b6a1",
+        ":focus": {
+          "background-color": "#4ea491"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#57b6a1",
+        ":hover": {
+          "background-color": "#4ea491"
+        },
+        ":focus": {
+          "background-color": "#4ea491"
+        }
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu3 cid-sWt58rLFdw" once="menu" id="menu3-7">
+    
+    <nav class="navbar navbar-dropdown navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-2" href="index.html">MIROCA PARIS</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="biography.html">BIO</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="music.html">MUSIC &amp; VIDEOS</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="concerts.html">CONCERTS</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="gallery.html">GALLERY</a></li></ul>
+                <div class="icons-menu">
+                    <a class="iconfont-wrapper" href="https://www.facebook.com/Miroca.Paris/" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-facebook socicon" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://www.youtube.com/mirocaparismusic" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-youtube socicon" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="http://instagram.com/Miroca_paris" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-instagram socicon" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                    </a>
+                    
+                </div>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-white display-4" href="shop.html">SHOP</a></div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="content4 cid-sWt5kPX208" id="content4-b">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Welcome to my shop!</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">NEW *** LIVE IN WARSAW *** TEA SPECIALITY *** NEW</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="custom-html-d"><!-- Type valid HTML here -->
+
+
+<div id="collection-component-1643972656717"></div>
+
+</div>
+
+<section data-bs-version="5.1" class="footer1 cid-sWt58syTJD" once="footers" id="footer1-a">
+
+    
+    
+    <div class="container">
+        <div class="row mbr-white">
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>ABOUT</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Biography</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Discography</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Projects</span></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>MEDIA</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+
+                    <li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Music</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Photos</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Videos</span><br></li>
+                    <li class="mbr-text item-wrap"><br></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>News</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Press</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;">Blog</span></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>Newsletter</strong></h5>
+                <p class="mbr-text mbr-fonts-style mb-4 display-4">Subscribe to my newsletter&nbsp; receive a discount code for my latest album &gt;&gt; here &lt;&lt;.&nbsp;<br></p>
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+                    <strong>Social</strong>
+                </h5>
+                <div class="social-row display-7">
+                    <div class="soc-item">
+                        <a href="https://www.facebook.com/Miroca.Paris/" target="_blank">
+                            <span class="mbr-iconfont socicon-facebook socicon" style="color: rgb(87, 182, 161); fill: rgb(87, 182, 161);"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span class="mbr-iconfont socicon-youtube socicon" style="color: rgb(87, 182, 161); fill: rgb(87, 182, 161);"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.youtube.com/mirocaparismusic" target="_blank">
+                            <span class="mbr-iconfont socicon-instagram socicon" style="color: rgb(87, 182, 161); fill: rgb(87, 182, 161);"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://mirocaparis.bandcamp.com/" target="_blank">
+                            <span class="mbr-iconfont socicon-bandcamp socicon" style="color: rgb(87, 182, 161); fill: rgb(87, 182, 161);"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7">
+                    © Copyright 2022 <a href="index.html" class="text-primary">Miroca Paris</a> - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  
+  <input name="animation" type="hidden">
+  
+</body>
+</html>
