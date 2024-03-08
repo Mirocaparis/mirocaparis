@@ -1032,13 +1032,10 @@ a {
     left: -1rem;
   }
 }
-.cid-u6rrzv40lq {
-  background-image: url("../../../assets/images/clip-3-2000x1125.jpeg");
-}
-.cid-u6rrzv40lq .mbr-fallback-image.disabled {
+.cid-u6t57O9OL1 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-u6rrzv40lq .mbr-fallback-image {
+.cid-u6t57O9OL1 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1046,16 +1043,25 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/clip-3-2000x1125.jpg");
 }
-.cid-u6rrzv40lq .mbr-section-title {
-  color: #2817eb;
+.cid-u6t57O9OL1 .mbr-section-title,
+.cid-u6t57O9OL1 .mbr-text,
+.cid-u6t57O9OL1 .mbr-section-btn {
+  text-align: center;
 }
-.cid-u6rrzv40lq .mbr-section-subtitle {
-  color: #ffffff;
+.cid-u6t57O9OL1 .video-wrapper {
+  margin: auto;
 }
-.cid-u6rrzv40lq .mbr-text,
-.cid-u6rrzv40lq .mbr-section-btn {
-  color: #ffffff;
+.cid-u6t57O9OL1 .video-wrapper iframe {
+  width: 100%;
+}
+.cid-u6t57O9OL1 .mbr-section-title {
+  color: #fffae6;
+}
+.cid-u6t57O9OL1 .mbr-text,
+.cid-u6t57O9OL1 .mbr-section-btn {
+  color: #fffae6;
 }
 .cid-u4Eu4MCZyK {
   padding-top: 1rem;
@@ -4939,6 +4945,16 @@ a {
 .cid-tfmoMstPrG .mbr-section-subtitle {
   color: #fafafa;
 }
+.cid-u4DHS0fuZI {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #f5f2ed;
+}
+.cid-u4DHS0fuZI .mbr-section-btn {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
 .cid-tluCLnZP4d {
   z-index: 1000;
   width: 100%;
@@ -5286,13 +5302,13 @@ a {
     left: -1rem;
   }
 }
-.cid-u4DwyXDrgj {
+.cid-u6t7ctqML8 {
   background-image: url("../../../assets/images/miroca-feito-47-2000x1333.jpeg");
 }
-.cid-u4DwyXDrgj .mbr-fallback-image.disabled {
+.cid-u6t7ctqML8 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-u4DwyXDrgj .mbr-fallback-image {
+.cid-u6t7ctqML8 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -5301,22 +5317,15 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-u4DwyXDrgj .mbr-section-title {
+.cid-u6t7ctqML8 .mbr-section-title {
   color: #000c66;
 }
-.cid-u4DwyXDrgj .mbr-text,
-.cid-u4DwyXDrgj .mbr-section-btn {
-  color: #fbf3e4;
+.cid-u6t7ctqML8 .mbr-section-subtitle {
+  color: #fffae6;
 }
-.cid-u4DHS0fuZI {
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  background-color: #f5f2ed;
-}
-.cid-u4DHS0fuZI .mbr-section-btn {
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
+.cid-u6t7ctqML8 .mbr-text,
+.cid-u6t7ctqML8 .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-u4Dz6AaSEb {
   padding-top: 0rem;
