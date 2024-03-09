@@ -4945,16 +4945,6 @@ a {
 .cid-tfmoMstPrG .mbr-section-subtitle {
   color: #fafafa;
 }
-.cid-u4DHS0fuZI {
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  background-color: #f5f2ed;
-}
-.cid-u4DHS0fuZI .mbr-section-btn {
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
-}
 .cid-tluCLnZP4d {
   z-index: 1000;
   width: 100%;
@@ -5301,6 +5291,16 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-u4DHS0fuZI {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #f5f2ed;
+}
+.cid-u4DHS0fuZI .mbr-section-btn {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 .cid-u6t7ctqML8 {
   background-image: url("../../../assets/images/miroca-feito-47-2000x1333.jpeg");
