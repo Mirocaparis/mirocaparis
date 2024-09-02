@@ -3141,50 +3141,80 @@ a {
   padding-bottom: 1rem;
   background-color: #57b6a1;
 }
-.cid-sWM1gZ5iVV {
-  padding-top: 2rem;
-  padding-bottom: 0rem;
-  background-color: #000000;
+.cid-undvmNBXh2 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/2013-mp-conga-by-am-2000x1334.jpeg");
 }
-.cid-sWM1gZ5iVV .mbr-section-title {
-  color: #fafafa;
+.cid-undvmNBXh2 .mbr-text,
+.cid-undvmNBXh2 .mbr-section-btn {
+  color: #232323;
 }
-.cid-sWM1gZ5iVV .mbr-section-subtitle {
-  color: #000000;
+.cid-undvmNBXh2 .card-title,
+.cid-undvmNBXh2 .card-box {
+  color: #ffffff;
 }
-.cid-tkl6Cy4MIj {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: #000000;
-}
-@media (max-width: 991px) {
-  .cid-tkl6Cy4MIj .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-tkl6Cy4MIj .row {
-  flex-direction: row-reverse;
-}
-.cid-tkl6Cy4MIj img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-tkl6Cy4MIj .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-tkl6Cy4MIj .mbr-text {
-  text-align: center;
-  color: #fafafa;
-}
-.cid-tkl6Cy4MIj .mbr-section-title {
-  text-align: center;
-  color: #57b6a1;
+.cid-undvmNBXh2 .mbr-text,
+.cid-undvmNBXh2 .link-wrap {
+  color: #ffffff;
 }
 .cid-tkkpUKNTUI {
   padding-top: 2rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
+}
+.cid-tkkpUKNTUI .mbr-text {
+  text-align: left;
+}
+.cid-une2xYVMso {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-une2xYVMso .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-une2xYVMso .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-une2xYVMso .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-une2xYVMso img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-une2xYVMso .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-uneuIR9OtU {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-uneuIR9OtU img {
+  width: 120px;
+  margin: auto;
+}
+.cid-uneuIR9OtU .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-uneuIR9OtU .card {
+    max-width: 12.5%;
+  }
 }
 .cid-tkknom10eQ {
   padding-top: 9rem;
@@ -3256,7 +3286,7 @@ a {
 }
 .cid-tkkOdLpUi3 {
   padding-top: 1rem;
-  padding-bottom: 0rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
 .cid-tkkOdLpUi3 .video-wrapper iframe {
@@ -3267,10 +3297,39 @@ a {
 .cid-tkkOdLpUi3 .mbr-text {
   text-align: center;
 }
+.cid-tkl6Cy4MIj {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #000000;
+}
+@media (max-width: 991px) {
+  .cid-tkl6Cy4MIj .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tkl6Cy4MIj .row {
+  flex-direction: row-reverse;
+}
+.cid-tkl6Cy4MIj img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-tkl6Cy4MIj .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-tkl6Cy4MIj .mbr-text {
+  text-align: center;
+  color: #fafafa;
+}
+.cid-tkl6Cy4MIj .mbr-section-title {
+  text-align: center;
+  color: #57b6a1;
+}
 .cid-tkkRn1aKLZ {
-  padding-top: 9rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/2013-mp-conga-by-am-2000x1334.jpg");
+  padding-top: 3rem;
+  padding-bottom: 9rem;
+  background-image: url("../../../assets/images/miriam-brenner-miroca-paris-womex21-foto-eric-van-nieuwland-015438-858x572.jpg");
 }
 .cid-tkkRn1aKLZ .mbr-text,
 .cid-tkkRn1aKLZ .mbr-section-btn {
@@ -4847,7 +4906,7 @@ a {
   color: #9036f1;
 }
 .cid-tfmsBTdMxq .mbr-text {
-  color: #ffffff;
+  color: #fafafa;
 }
 .cid-tfmqJQtGh0 {
   padding-top: 6rem;
